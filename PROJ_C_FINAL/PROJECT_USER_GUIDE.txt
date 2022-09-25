@@ -1,0 +1,85 @@
+This project is done by "YOUSSEF ALI MOHAMED"
+
+email: aliy47628@gmail.com
+
+group: OCT_21
+
+time: 1 PM --> 6 PM
+
+
+This is a student data base. No entries are stored in the memory , the user must enter the students data 
+every time the project is used.
+
+User only call the functions in main.c as all the functions are declared in the file SDB.h and implemented 
+in thin file SDB.c and there is no need to write any more functions.
+
+There are 8 functions in this project 
+
+1-) SDB_InitializeDataList:
+
+This function will intialize the data base there for all data inside will be cleared
+
+2-) SDB_IsFull:
+
+This function will chech if the student list is full or not 
+
+if TRUE it will print 
+	"STUDENT DATA BASE IS FULL"
+if FALSE
+	"STUDENT DATA BASE IS NOT FULL"
+
+
+3-) SDB_GetUsedSize:
+
+This function will print the used size from the data base 
+
+4-) SDB_AddEntry:
+
+This function allows the user to add a new student data 
+
+if data is added it will print 
+	"ENTRY ADDED SUCCESSFULLY"
+if data is not added it will return FALSE
+
+5-) SDB_DeleteEntry:
+
+This function allows the user to delete a previously entered entry 
+
+If ID doesn't exist it will print 
+	"STUDENT ID DOESN'T EXIST"
+
+If ID exists and is deleted it will print 
+	"ENTRY DELETED SUCCESSFULLY"
+
+6-) SDB_ReadEntry:
+
+This function allows the user to read the data od a student 
+
+If ID exists it will print the data
+
+If ID doesn't exist it will return FALSE
+
+7-) SDB_GetIdList:
+
+This function print each student and its ID in the list and then it will 
+print the number of students in the list 
+
+8-) SDB_IsIdExist:
+
+This function check if the entered ID exists or not 
+
+if TRUE it will print 
+	"STUDENT ID EXISTS"
+
+if FALSE it will print 
+	"STUDENT ID DOESN'T EXIST"
+
+
+	
+
+
+	
+
+
+
+

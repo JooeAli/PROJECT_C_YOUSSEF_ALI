@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1664110288 source:d:\youssef\embedded systems (amit)\project_c\proj_c_final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"SDB.h"
+
+1664107422 d:\youssef\embedded systems (amit)\project_c\proj_c_final\sdb.h
+
+1664110346 source:d:\youssef\embedded systems (amit)\project_c\proj_c_final\sdb.c
+	<stdio.h>
+	<stdlib.h>
+	"SDB.h"
+
